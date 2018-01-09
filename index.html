@@ -2,26 +2,54 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<link rel="icon"  href="http://mmahan.net/favicon.ico" />
 	<script src="./pascal's.js"></script>
 	<title>Binomial coefficient</title>
 </head>
 <body>
+	<div id="editThis">
+	<!--slider is currently non-functional. I want to get it so that it actively modifies the font size(will definitely break higher levels of n)
+
 	<div class="slidecontainer">
   		<input type="range" min="1" max="12" value="12" class="slider" id="slider">
 	</div>
-	<div><output>font size: <div id='output'></div></output></div>
+	
+	<div><output>font size: <div id='output'></div></output></div> 
+	-->
 	<button onClick="main()">clicky clicky</button>
+	<!--this is where the triangle will render-->
 	<p id='here'></p>
+	</div>
+	<footer>
+	Pascal's Colorized &copy; Michael Mahan 2017 |  <a href="https://github.com/JohnnySn0w/PascalColored">GitHub</a>| <a href="./matt">Matthew's Projects</a> | <a href="./Pascal"> Pascal's Pyramid (colorized)</a>
+	</footer>
 </body>
 </html>
 <style>
 *
 {
-	text-align:center;
-	font-family:"Courier New", Courier, monospace;
+	text-align: center;
+	font-family: "Monospace", Courier, monospace;
 }
 body
 {
-	background-color:#f0f0f0;
+	background-color: #f0f0f0;
+}
+footer
+{
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	z-index: 10;
+	height: auto;
+	display: block;
+	position: fixed;
+	text-align: center;
+	background-color: #efefff;
+}
+#editThis
+{
+	position: relative;
+	margin-bottom: 20px;
 }
 </style>
