@@ -1,6 +1,6 @@
-I thought pascal's triangle was p cool so I decided to color code it a little to see what would happen. Not dissapointed. Will likely add further functionality, like changing the colors or the coloring rules. 
+I thought pascal's triangle was pretty neat so I decided to color code it a little to see what would happen. Not dissapointed. Will likely add further functionality, like changing the colors or the coloring rules. 
 
-Feel absolutely free to play with this and add functionality, I think it has a lot of potential as a teaching and research tool.
+Feel absolutely free to play with this and add functionality, I think it has potential as a teaching and research tool.
 
 ___
 
